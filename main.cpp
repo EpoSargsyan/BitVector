@@ -1,6 +1,12 @@
-#include "BitVector.h"
+#include <iostream>
+#include "bitvector.h"
 
-int main () {
+int main() {
     BitVector bitvector;
-    return 0;
+    bitvector.set(4, 1);
+    std::cout << bitvector.get(4);
+    bitvector.set(44);
+    std::cout << bitvector.get(44);
+
+
 }
