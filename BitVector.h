@@ -31,7 +31,6 @@ public:
         return stream;
     }
 
-
 private:
     void resize(const int&);
 
